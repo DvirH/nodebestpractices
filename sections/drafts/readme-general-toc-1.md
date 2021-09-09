@@ -1,24 +1,25 @@
 <!--- # Node.js Best Practices -->
-<!--- ![Node.js Best Practices](assets/images/banner-2.jpg) -->
+<!--- ![Node.js Best Practices](../../assets/images/banner-2.jpg) -->
 <h1 align="center">
-  <img src="assets/images/banner-2.jpg" alt="Node.js Best Practices" />
+  <img src="../../assets/images/banner-2.jpg" alt="Node.js Best Practices" />
 </h1>
 
-<img src="https://img.shields.io/badge/⚙%20Item%20count%20-%2053%20Best%20practices-blue.svg" alt="53 items"> <img src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%206%20days%20ago-green.svg" alt="Last update: 7 days ago"> <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%208.4-brightgreen.svg" alt="Updated for Node v.8.4">
+<img src="https://img.shields.io/badge/⚙%20Item%20count%20-%2053%20Best%20practices-blue.svg" alt="53 items"/> <img src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%206%20days%20ago-green.svg" alt="Last update: 7 days ago"/> <img src="https://img.shields.io/badge/%E2%9C%94%20Updated%20For%20Version%20-%20Node%208.4-brightgreen.svg" alt="Updated for Node v.8.4"/>
 
-<!--- ![Node.js Best Practices](assets/images/banner-1.png) -->
+<!--- ![Node.js Best Practices](../../assets/images/banner-1.png) -->
 
 # Welcome to Node.js Best Practices
 
 Welcome to the biggest compilation of Node.js best practices. The content below was gathered from all top ranked books and posts and is updated constantly - when you read here rest assure that no significant tip slipped away. Feel at home - we love to discuss via PRs, issues or Gitter.
 
 ## Table of Contents
+
 * [Project Setup Practices (18)](#project-setup-practices)
-* [Code Style Practices (11) ](#code-style-practices)
-* [Error Handling Practices (14) ](#error-handling-practices)
-* [Going To Production Practices (21) ](#going-to-production-practices)
-* [Testing Practices (9) ](#deployment-practices)
-* [Security Practices (8) ](#security-practices)
+* [Code Style Practices (11)](#code-style-practices)
+* [Error Handling Practices (14)](#error-handling-practices)
+* [Going To Production Practices (21)](#going-to-production-practices)
+* [Testing Practices (9)](#deployment-practices)
+* [Security Practices (8)](#security-practices)
 
 
 <br/><br/>
@@ -26,11 +27,11 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 
 ## ✔ 1. Structure your solution by feature ('microservices')
 
-**TL&DR:** The worst large applications pitfal is a huge code base with hundreds of dependencies that slow down they developers as they try to incorporate new features. Partioning into small units ensures that each unit is kept simple and  easy to maintain. This strategy pushes the complexity to the higher level - designing the cross-component interactions. 
+**TL&DR:** The worst large applications pitfal is a huge code base with hundreds of dependencies that slow down they developers as they try to incorporate new features. Partioning into small units ensures that each unit is kept simple and  easy to maintain. This strategy pushes the complexity to the higher level - designing the cross-component interactions.
 
 **Otherwise:** Developing a new feature with a change to few objects demands to evaluate how this changes might affect dozends of dependants and ach deployment becomes a fear.
 
-🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
+🔗 [**Read More: Structure by feature*](../errorhandling/asyncerrorhandling.md)
 
 <br/><br/>
 
@@ -40,7 +41,7 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 
 **Otherwise:** Application can be accessed by Express only and require to create complex testing mocks
 
-🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
+🔗 [**Read More: Structure by feature*](../errorhandling/asyncerrorhandling.md)
 
 <br/><br/>
 
@@ -50,15 +51,18 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 
 **Otherwise:** You end-up with a blackbox that is hard to reason about, then you start re-writing all logging statements to add additional information
 
-🔗 [**Read More: Structure by feature*](/sections/errorhandling/asyncawait.md)
+🔗 [**Read More: Structure by feature*](../errorhandling/asyncerrorhandling.md)
 
 
 <br/><br/><br/>
+
 # `Code Style Practices`
 
 
 <br/><br/><br/>
+
 # `Error Handling Practices`
+
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
 ## ✔ Use async-await for async error handling
@@ -67,18 +71,16 @@ Welcome to the biggest compilation of Node.js best practices. The content below 
 
 * **Otherwise:** Node.js callback style, function(err, response), is a promising way to un-maintainable code due to the mix of error handling with casual code, excessive nesting and awkward coding patterns
 
-🔗 [**Use async-await for async error handling**](/sections/errorhandling/asyncawait.md)
-
-
+🔗 [**Use async-await for async error handling**](../errorhandling/asyncerrorhandling.md)
 
 <br/><br/><br/>
+
 # `Going To Production Practices`
 
-
 <br/><br/><br/>
+
 # `Deployment Practices`
 
-
 <br/><br/><br/>
-# `Security Practices`
 
+# `Security Practices`
